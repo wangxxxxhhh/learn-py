@@ -20,4 +20,4 @@ else:
     if guess_num == num:
         print("恭喜第三次猜对了。")
     else:
-        print("三次都猜错了。")
+        print("不好意思，三次都猜错了。")
