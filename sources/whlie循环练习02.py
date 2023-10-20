@@ -13,5 +13,5 @@ while flag:
             print("猜大了。")
         else:
             print("猜小了。")
-print("总共猜测了{count}次")
+print(f"总共猜测了{count}次")
 
