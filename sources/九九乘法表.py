@@ -5,5 +5,5 @@ while i <= 9:
         print(f"{j} * {i} = {j * i}\t", end='')
         j += 1
     i += 1
-    print()
+    print()#print空内容就是输出一个换行
 
