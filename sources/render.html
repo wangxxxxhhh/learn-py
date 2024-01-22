@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china-cities.js"></script>
+
+</head>
+<body >
+    <div id="121e6a2d80e64ab0bb6d225834432b04" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_121e6a2d80e64ab0bb6d225834432b04 = echarts.init(
+            document.getElementById('121e6a2d80e64ab0bb6d225834432b04'), 'white', {renderer: 'canvas'});
+        var option_121e6a2d80e64ab0bb6d225834432b04 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u5730\u56fe",
+            "label": {
+                "show": true,
+                "margin": 8
+            },
+            "map": "china-cities",
+            "data": [
+                {
+                    "name": "\u6cb3\u5357\u7701",
+                    "value": 33
+                },
+                {
+                    "name": "\u6c5f\u82cf",
+                    "value": 44
+                }
+            ],
+            "roam": true,
+            "aspectScale": 0.75,
+            "nameProperty": "name",
+            "selectedMode": false,
+            "zoom": 1,
+            "zlevel": 0,
+            "z": 2,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "mapValueCalculation": "sum",
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5730\u56fe"
+            ],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    }
+};
+        chart_121e6a2d80e64ab0bb6d225834432b04.setOption(option_121e6a2d80e64ab0bb6d225834432b04);
+    </script>
+</body>
+</html>
