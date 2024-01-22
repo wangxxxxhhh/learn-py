@@ -6,6 +6,12 @@ with open('C:/pyfile/疫情.txt', 'r', encoding='UTF-8') as f:
 f_dict = json.loads(f_json)
 province_data = f_dict['areaTree'][0]['children']
 date = []
+date.append(('重庆市', 10))
+date.append(('新疆维吾尔自治区', 100))
+date.append(('广西壮族自治区', 1000))
+date.append(('宁夏回族自治区', 10000))
+date.append(('内蒙古自治区', 100000))
+date.append(('西藏自治区', 9))
 for province_all in province_data:
     province_name = province_all['name'] + "省"
     province_confirm = province_all['total']['confirm']
