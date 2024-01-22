@@ -3,6 +3,7 @@ from pyecharts.options import VisualMapOpts
 import json
 with open('C:/pyfile/疫情.txt', 'r', encoding='UTF-8') as f:
     f_json = f.read()
+    f.close()
 f_dict = json.loads(f_json)
 province_data = f_dict['areaTree'][0]['children']
 date = []
